@@ -1,0 +1,24 @@
+$FONT = "XFT:Sans:size=12#Left"
+$FONT_TITLE = "XFT#Sans:size=12:weight=bold#1 1#Left"
+
+Require {
+  Templates = "True"
+}
+
+Background {
+  LinesHorz 20% #afadbf #9f9daf #afadbf #9f9daf #afadbf"
+}
+
+CmdDialog {
+  Font = "$FONT"
+  Texture = "Solid #fffff"
+  Text = "#000000"
+  Pad = "3 0 1 10"
+}
+
+Status {
+  Font = "$FONT"
+  Texture = "Solid #ffffff"
+  Text = "#8b8b89"
+  Pad = "2 2 10 10"
+}
