@@ -6,7 +6,7 @@ Require {
 }
 
 Background {
-  LinesHorz 20% #afadbf #9f9daf #afadbf #9f9daf #afadbf"
+  Texture = "LinesHorz 20% #afadbf #9f9daf #afadbf #9f9daf #afadbf"
 }
 
 CmdDialog {
