@@ -9,7 +9,7 @@ $COLOR_FO_LO = "#dddddd"
 $COLOR_BD_FO = "#000000"
 $TEXT_FO = "#333333"
 
-$COLOR_FO_SEL = "#efefef"
+$COLOR_FO_SEL = "#ff0000"
 $COLOR_FO_SEL_HI = "#ffffff"
 $COLOR_FO_SEL_LO = "#dddddd"
 $TEXT_FO_SEL = "#000000"
