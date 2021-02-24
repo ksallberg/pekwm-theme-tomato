@@ -1,24 +1,28 @@
-$FONT = "XFT:Sans:size=12#Left"
-$FONT_TITLE = "XFT#Sans:size=12:weight=bold#1 1#Left"
+$FONT = "-*-fixed-*-r-*-*-*-*-*-*-*-*-iso10646-*"
+$MENU_FONT = "-*-fixed-*-r-*-*-*-*-*-*-*-*-iso10646-*"
 
-Require {
-  Templates = "True"
-}
+$BG_TEX = "Solid #ffffff"
 
-Background {
-  Texture = "LinesHorz 20% #afadbf #123456 #afadbf #9f9daf #afadbf"
-}
+$COLOR_FO = "#eeeeee"
+$COLOR_FO_HI = "#ffffff"
+$COLOR_FO_LO = "#dddddd"
+$COLOR_BD_FO = "#000000"
+$TEXT_FO = "#333333"
 
-CmdDialog {
-  Font = "$FONT"
-  Texture = "Solid #fffff"
-  Text = "#000000"
-  Pad = "3 0 1 10"
-}
+$COLOR_FO_SEL = "#efefef"
+$COLOR_FO_SEL_HI = "#ffffff"
+$COLOR_FO_SEL_LO = "#dddddd"
+$TEXT_FO_SEL = "#000000"
 
-Status {
-  Font = "$FONT"
-  Texture = "Solid #ffffff"
-  Text = "#8b8b89"
-  Pad = "2 2 10 10"
-}
+$COLOR_UN = "#aaaaaa"
+$COLOR_UN_HI = "#bbbbbb"
+$COLOR_UN_LO = "#999999"
+$COLOR_BD_UN = "#666666"
+$TEXT_UN = "#666666"
+
+$COLOR_UN_SEL = "#afafaf"
+$COLOR_UN_SEL_HI = "#bbbbbb"
+$COLOR_UN_SEL_LO = "#999999"
+$TEXT_UN_SEL = "#333333"
+
+INCLUDE = "$THEME_DIR/template"
