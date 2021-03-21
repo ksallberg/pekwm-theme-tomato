@@ -1,7 +1,7 @@
-$TEX_FO = "SolidRaised $COLOR_FO $COLOR_FO_HI $COLOR_FO_LO 1 0"
-$TEX_FO_SEL = "SolidRaised $COLOR_FO_SEL $COLOR_FO_SEL_HI $COLOR_FO_SEL_LO 1 0"
-$TEX_UN = "SolidRaised $COLOR_UN $COLOR_UN_HI $COLOR_UN_LO 1 0"
-$TEX_UN_SEL = "SolidRaised $COLOR_UN_SEL $COLOR_UN_SEL_HI $COLOR_UN_SEL_LO"
+$TEX_FO = "Solid $COLOR_FO $COLOR_FO_HI $COLOR_FO_LO 1 0"
+$TEX_FO_SEL = "Solid $COLOR_FO_SEL $COLOR_FO_SEL_HI $COLOR_FO_SEL_LO 1 0"
+$TEX_UN = "Solid $COLOR_UN $COLOR_UN_HI $COLOR_UN_LO 1 0"
+$TEX_UN_SEL = "Solid $COLOR_UN_SEL $COLOR_UN_SEL_HI $COLOR_UN_SEL_LO"
 $TEX_SEP_FO = "Solid $COLOR_FO_HI 2x20"
 $TEX_SEP_UN = "Solid $COLOR_UN_HI 2x20"
 
@@ -13,7 +13,7 @@ Require {
 }
 
 Background {
-  Texture = "$BG_TEX"
+  Texture = "Image amirali-mirhashemian-cRNUvWM9l_I-unsplash.jpg#scaled"
 }
 
 ColorMaps {
@@ -95,12 +95,11 @@ Define = "Buttons" {
 }
 
 Define = "Decor" {
-  Height = "20"
-  Pad = "2 2 5 5"
+  Height = "25"
+  Pad = "2 5 5 5"
 
   Focused = "$TEX_FO"
   Unfocused = "$TEX_UN"
-
   Tab {
     Focused = "$TEX_FO"
     FocusedSelected = "$TEX_FO_SEL"
@@ -109,7 +108,7 @@ Define = "Decor" {
   }
   Separator {
     Focused = "$TEX_SEP_FO"
-    Unfocused = "$TEX_SEP_UN"
+    Unfocused = "$TEX_SEP_FO"
   }
   Font {
     Focused = "$FONT#Center"
@@ -168,7 +167,7 @@ Decor = "InputDialog" {
 Decor = "Menu" {
   @Decor
   Border {
-    @Border
+    @EmptyBorder
   }
 }
 
@@ -190,7 +189,7 @@ CmdDialog {
   Font = "$FONT"
   Texture = "$TEX_UN"
   Text = "$TEXT_UN"
-  Pad = "4 4 4 4"
+  Pad = "5 5 5 5"
 }
 
 Dialog {
@@ -222,7 +221,7 @@ Menu {
     Background = "$TEX_FO"
     Item = "Empty"
     Text = "$TEXT_FO"
-    Separator = "Solid $COLOR_FO_HI 1x1"
+    Separator = "Empty"
     Arrow = "Solid $COLOR_FO_LO 5x5"
   }
   Unfocused {
@@ -230,7 +229,7 @@ Menu {
     Background = "$TEX_UN"
     Item = "Empty"
     Text = "$TEXT_UN"
-    Separator = "Solid $COLOR_UN_HI 1x1"
+    Separator = "Empty"
     Arrow = "Solid $COLOR_UN_LO 5x5"
   }
   Selected {
@@ -240,7 +239,7 @@ Menu {
     Text = "$TEXT_FO_SEL"
     Arrow = "Solid $COLOR_FO_SEL_LO 5x5"
   }
-  Pad = "2 2 4 4"
+  Pad = "5 5 5 5"
 }
 
 Status {
