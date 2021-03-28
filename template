@@ -92,6 +92,20 @@ Define = "Buttons" {
     Button = "1" { Actions = "Close" }
     Button = "3" { Actions = "Kill" }
   }
+  Right = "MaximizeVertical" {
+    Focused = "ImageMapped Focused button-max-vertical.xpm"
+    Unfocused = "ImageMapped Focused button-max-vertical.xpm"
+    Hoover = "ImageMapped Focused button-max-vertical.xpm"
+    Pressed = "ImageMapped Focused button-max-vertical.xpm"
+    Button = "1" { Actions = "Toggle Maximized 0 1"}
+  }
+  Right = "Maximize" {
+    Focused = "ImageMapped Focused button-max.xpm"
+    Unfocused = "ImageMapped Focused button-max.xpm"
+    Hoover = "ImageMapped Focused button-max.xpm"
+    Pressed = "ImageMapped Focused button-max.xpm"
+    Button = "1" { Actions = "Toggle Maximized 1 1"}
+  }
 }
 
 Define = "Decor" {
